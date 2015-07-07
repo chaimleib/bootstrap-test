@@ -1,0 +1,14 @@
+{
+    "name": "bootstrap-test",
+    "description": "try to get bootstrap to deploy to heroku",
+    "version": "0.0.1",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/chaimleib/bootstrap-test.git"
+    },
+    "license": "Apache-2.0",
+    "engines": {
+        "npm": "*"
+    }
+}
+
