@@ -11,6 +11,13 @@
  * file per style scope.
  *
 
-
  */
-
+/* line 1, /Users/chaimleib/Documents/Programming/Coupa/bootstrap-test/app/assets/stylesheets/partials/_reset.scss */
+html,
+body,
+ul, ol,
+h1, h2, h3, h4, h5, h6,
+p, div, span {
+  margin: 0;
+  padding: 0;
+}
