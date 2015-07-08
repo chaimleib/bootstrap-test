@@ -1,0 +1,21 @@
+{
+    "name": "bootstrap-test",
+    "description": "try to get bootstrap to deploy to heroku",
+    "version": "0.0.1",
+    "dependencies": {
+        "bower": "1.4.x"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/chaimleib/bootstrap-test.git"
+    },
+    "license": "Apache-2.0",
+    "engines": {
+        "node": "0.12.x",
+        "npm": "2.12.x"
+    },
+    "scripts": {
+        "postinstall": "./node_modules/bower/bin/bower install"
+    }
+}
+
