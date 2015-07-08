@@ -36,6 +36,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 ### CUSTOM ###
 gem 'haml-rails'
+gem 'puma'
 
 group :production do
     gem 'rails_12factor'
