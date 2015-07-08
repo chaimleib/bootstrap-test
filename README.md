@@ -17,3 +17,21 @@ heroku config:set "$(heroku config |
     sed -e 's/^.*\/\//DATABASE_URL=mysql2:\/\//')"
 git push -f heroku
 ```
+
+## Hacking
+
+If you make any changes, run
+
+```bash
+rake assets:precompile
+rake assets:clean
+git add public
+git commit -m "your message here"
+```
+
+to precompile any changes to the assets. Otherwise, heroku will not update them when you deploy again using
+
+```bash
+git push -f heroku HEAD:master
+```
+
